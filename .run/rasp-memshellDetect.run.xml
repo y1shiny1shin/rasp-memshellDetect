@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="rasp-memshellDetect" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="com.execguard.app.ShopApplication" />
+    <module name="rasp-memshellDetect" />
+    <option name="VM_PARAMETERS" value="-javaagent:$PROJECT_DIR$/target/rasp-memshellDetect-agent.jar -Dpayload.dir=$PROJECT_DIR$/target/test-classes" />
+    <option name="PROGRAM_PARAMETERS" value="--server.port=18080" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
